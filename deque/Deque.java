@@ -65,13 +65,13 @@ public class Deque <dataType>{
             front = back = null;
         }
         else{
-            Node aux = anteriorBack();
+            Node aux = previousToBack();
             back = aux;
             back.next = null;
         }
     }
     
-    private Node anteriorBack(){
+    private Node previousToBack(){
         Node aux = front;
         while(aux != back){
             if(aux.next.equals(back))
