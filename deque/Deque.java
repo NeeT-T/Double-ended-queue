@@ -93,7 +93,7 @@ public class Deque <dataType>{
         return back.element;
     }
     
-    public void printDeque() {
+    /*public void printDeque() {
         if (isEmpty()){
             return;
         }
@@ -102,7 +102,7 @@ public class Deque <dataType>{
             System.out.println(aux.element);
             aux = aux.next;
         }
-    }
+    }*/
     
 }
 
