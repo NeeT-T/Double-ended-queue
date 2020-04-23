@@ -47,7 +47,6 @@ public class Deque <dataType>{
     
     public void popFront(){
         if(isEmpty()){
-            System.out.println("Deque Vazio!");
             return;
         }
         else if (front == back){
@@ -60,7 +59,6 @@ public class Deque <dataType>{
     
     public void popBack(){
         if(isEmpty()){
-            System.out.println("Deque Vazio!");
             return;
         }
         else if (front == back){
@@ -97,7 +95,6 @@ public class Deque <dataType>{
     
     public void printDeque() {
         if (isEmpty()){
-            System.out.println("Deque Vazio!");
             return;
         }
         Node aux = front;
