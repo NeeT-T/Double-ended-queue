@@ -92,17 +92,5 @@ public class Deque <dataType>{
             return null;
         return back.element;
     }
-    
-    /*public void printDeque() {
-        if (isEmpty()){
-            return;
-        }
-        Node aux = front;
-        while (aux != null){
-            System.out.println(aux.element);
-            aux = aux.next;
-        }
-    }*/
-    
 }
 
